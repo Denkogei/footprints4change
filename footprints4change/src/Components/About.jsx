@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="w-full bg-gray-100 text-gray-900 pt-[80px]">
       {/* Hero Section */}
-      <section className="relative bg-[#1E293B] text-white text-center py-20 px-6">
+      <section className="relative bg-[#2B256E] text-white text-center py-20 px-6">
         <h1 className="text-4xl md:text-5xl font-bold">About Us</h1>
         <p className="mt-3 text-lg md:text-xl max-w-2xl mx-auto">
           Empowering young people to create change and build peaceful communities.

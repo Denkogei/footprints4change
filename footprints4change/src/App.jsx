@@ -7,8 +7,9 @@ import Contact from "./Components/Contact";
 import Members from "./Components/Members";
 import GetInvolved from "./Components/GetInvolved";
 import Directors from "./Components/Directors";
-import Staff from "./Components/Staff";
+import Staff from "./Components/StaffMembers";
 import Footer from "./Components/Footer";
+import Donate from "./Components/Donate";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/members" element={<Members />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/get-involved" element={<GetInvolved />} />
+        <Route path="/donate" element={<Donate />} />
         <Route path="/members/directors" element={<Directors />} />
         <Route path="/members/staff" element={<Staff />} />
       </Routes>

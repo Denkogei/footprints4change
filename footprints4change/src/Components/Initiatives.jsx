@@ -37,7 +37,7 @@ const Initiatives = () => {
   return (
     <div className="w-full bg-gray-50 min-h-screen pt-24 px-6 md:px-12 lg:px-24 text-gray-900" style={{ marginTop: "15px" }}>
       {/* Hero Section */}
-      <section className="w-full bg-[#0E3048] text-white text-center py-16 rounded-lg shadow-lg mb-12">
+      <section className="w-full bg-[#2B256E] text-white text-center py-16 rounded-lg shadow-lg mb-12">
         <h1 className="text-4xl md:text-5xl font-bold">Programs & Initiatives</h1>
         <p className="mt-3 text-lg md:text-xl max-w-2xl mx-auto">
           Empowering youth through leadership, peacebuilding, and advocacy.
@@ -49,7 +49,7 @@ const Initiatives = () => {
         {initiatives.map((initiative, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-xl p-6 border-t-4 border-[#0E3048] transition-all duration-300 hover:shadow-2xl hover:scale-105"
+            className="bg-white shadow-lg rounded-xl p-6 border-t-4 border-[#2B256E] transition-all duration-300 hover:shadow-2xl hover:scale-105"
           >
             <h2 className="text-2xl font-bold text-gray-800">{initiative.title}</h2>
             <p className="mt-3 text-gray-600"><strong>Goal:</strong> {initiative.goal}</p>
