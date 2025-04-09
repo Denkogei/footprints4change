@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from "react";
 
+import kanini from '../assets/kanini.jpeg';
+import cath from '../assets/cath.png';
+import JAVAN from '../assets/JAVAN.jpg';
+import Jonah from '../assets/Jonah.png';
+
 const staffData = [
   {
     name: "Joanne Kanini",
@@ -7,7 +12,7 @@ const staffData = [
     phone: "+254 700 767 655",
     email: "joannekanini@gmail.com",
     address: "Nairobi, Kenya",
-    image: "/src/assets/kanini.jpeg",
+    image: kanini,
     profile: "Joanne Kanini is a dynamic leader, mediator, and youth empowerment advocate dedicated to fostering peace and social transformation. As the Executive Director of Footprints for Change (F4C), she brings extensive experience in conflict resolution, civic engagement, and grassroots leadership development. With a deep passion for equipping young people with the skills and confidence to become change agents, Joanne has spearheaded impactful programs that promote peacebuilding, governance, and sustainable community development. Her expertise in experiential learning, mentorship, and advocacy has positioned F4C as a driving force for youth-led transformation across Africa."
   },
   {
@@ -16,7 +21,7 @@ const staffData = [
     phone: "+254 703 296 098",
     email: "omondicate254@gmail.com",
     address: "Mombasa, Kenya",
-    image: "/src/assets/cath.png",
+    image: cath,
     profile: "Catherine is a dedicated community mobilizer and passionate advocate for youth empowerment. As a key figure at Footprints for Change, She plays an instrumental role in initiatives aimed at uplifting young people, particularly adolescent girls and young mum's Her commitment to mentorship and personal development is most evident through her leadership in the Glow as You Grow program. This transformative initiative, designed for girls aged 9 to 17 and for young mothers from age 14 to 22, she focuses on building self-confidence, leadership skills, and life skills. Through interactive workshops on personal growth, menstrual hygiene, and conflict resolution, Catherine empowers young girls to navigate challenges with resilience and purpose.  With years of experience in community outreach, Catherine is known for her empathetic approach, strong communication skills, and unwavering dedication to fostering safe, supportive spaces for girls to thrive. She believes that by equipping young people with the right tools, they can become confident, impactful leaders in their communities.  Catherine’s leadership and vision continue to inspire and shape the next generation of empowered young women."
   },
   {
@@ -25,7 +30,7 @@ const staffData = [
     phone: "+254 746 018 500",
     email: "oj@footprints4change.org",
     address: "Nairobi, Kenya",
-    image: "/src/assets/JAVAN.jpg",
+    image: JAVAN,
     profile: "Javan Oliech is a dedicated changemaker committed to youth empowerment, governance, and social transformation. As the Program Lead at Footprints4Change, he drives community-led initiatives that foster nonviolent civic engagement and systemic change. He has extensive experience in project management and coordination, including designing, planning, and implementing impactful programs. Passionate about amplifying youth voices, Javan has led transformative projects, from governance training to grassroots leadership development, equipping young people with the skills to influence change. Committed to continuous social transformation and community development, he champions inclusive, contextual, and innovative youth engagement, ensuring young p    eople are at the forefront of leadership and decision-making. His work bridges the gap between policy and community action, creating lasting impact."
   },
   {
@@ -34,7 +39,7 @@ const staffData = [
     phone: "+254 702 762 214",
     email: "KongoiJonah@gmail.com",
     address: "Nairobi, Kenya",
-    image: "/src/assets/Jonah.png",
+    image: Jonah,
     profile: "Jonah Mwakima is a dedicated youth advocate and community leader with a deep passion for empowering young people. As the Program Lead at Footprints for Change, he spearheads initiatives that equip youth with the knowledge and skills needed to drive meaningful change. His vision is to see a dignified and equitable community, where young people are informed, engaged, and empowered to lead. Jonah leads Changing Generations, an online show that provides authentic, objective, and conflict-sensitive information on politics, youth development, and youth leadership. Designed for young people aged 16–35 years, the program fosters critical discussions, encourages civic engagement, and nurtures the next generation of changemakers. Committed to youth empowerment, Jonah continues to create impactful programs that inspire young leaders to shape a better future."
   }
 ];
