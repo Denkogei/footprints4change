@@ -17,7 +17,7 @@ const staffData = [
   },
   {
     name: "Catherine Omondi",
-    position: "Program Director",
+    position: "Program Lead ",
     phone: "+254 703 296 098",
     email: "omondicate254@gmail.com",
     address: "Mombasa, Kenya",
