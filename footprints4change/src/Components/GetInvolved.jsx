@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 
 const GetInvolved = () => {
   return (
@@ -16,12 +18,12 @@ const GetInvolved = () => {
           <p className="text-gray-700 mb-5 leading-relaxed">
             Become a mentor, facilitator, or peace ambassador.
           </p>
-          <a
-            href="mailto:apply@footprintsforchange.org?subject=Volunteer Application"
+          <Link
+            to="/contact"
             className="inline-block bg-[#88C641] text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-[#2B256E] transition duration-300 shadow-md hover:shadow-lg"
           >
             Apply Now
-          </a>
+          </Link>
         </div>
 
         {/* Partnership Section */}
@@ -32,12 +34,12 @@ const GetInvolved = () => {
           <p className="text-gray-700 mb-5 leading-relaxed">
             Collaborate with us to support youth-led initiatives.
           </p>
-          <a
-            href="mailto:apply@footprintsforchange.org?subject=Partner With Us Inquiry"
+          <Link
+            to="/contact"
             className="inline-block bg-[#88C641] text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-[#2B256E] transition duration-300 shadow-md hover:shadow-lg"
           >
             Partner With Us
-          </a>
+          </Link>
         </div>
       </div>
     </section>
