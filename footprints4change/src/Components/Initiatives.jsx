@@ -4,31 +4,31 @@ const initiatives = [
   {
     title: "Kiota",
     goal: "Equip young leaders for community engagement.",
-    activities: "Training, mentorship, leadership workshops.",
+    activities: "Equip and empower the younger generation to engage in their communities as agents of peace and change, developing innovative solutions to the challenges they face. Impact: Reached over 2,000 youth.",
     impact: "Engaged over ?? youth in leadership development.",
   },
   {
     title: "Change Leaders",
     goal: "Empower youth to be civic leaders and agents of social transformation.",
-    activities: "Civic education, leadership training, advocacy.",
+    activities: "Empower youth to be civic leaders and agents of social transformation and peacebuilding within their communities.",
     impact: "Strengthened youth voices in governance processes.",
   },
   {
     title: "Urban Legends 254",
     goal: "Use sports to nurture cultures of peace and unity.",
-    activities: "Community sports events, peace tournaments.",
+    activities: "Promote cohesion and unity in Kenya through sports, nurturing cultures of peace and understanding among youth.",
     impact: "Enhanced social cohesion among diverse communities.",
   },
   {
     title: "Elimisha Vizazi",
     goal: "Sensitize communities on peace through youth-led events.",
-    activities: "Dialogues, public awareness campaigns, workshops.",
+    activities: "Sensitize communities on the importance of cultivating cultures of peace through inclusive, youth-led events.",
     impact: "Increased public discourse on peacebuilding.",
   },
   {
     title: "Changing Generations",
     goal: "Reinforce positive narratives for civic engagement and leadership.",
-    activities: "Media campaigns, storytelling initiatives.",
+    activities: "Nurture an informed, accountable youth population for constructive and non-violent civic engagement, leadership, and peacebuilding by reinforcing positive narratives.",
     impact: "Promoted constructive and nonviolent engagement.",
   },
 ];
