@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaTiktok } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaTiktok, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -18,36 +18,36 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-3">Get In Touch</h3>
             <p className="text-sm">
-              📍 <span className="font-semibold">Physical Address:</span> Nairobi, Kenya
+              📍 <span className="font-semibold">Physical Address:</span> PVM3+PR7 Kwa Jose, Nairobi
             </p>
-            <p className="text-sm">📧 info@footprintsforchange.org</p>
-            <p className="text-sm">📞 +254 700 123 456</p>
+            <p className="text-sm">📧 info@footprints4change.org</p>
+            <p className="text-sm">📞 +254 700 767 655</p>
           </div>
 
           {/* Right Section - Social Media */}
           <div>
             <h3 className="text-lg font-semibold mb-3">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-white text-xl hover:text-gray-300">
+              <a href="https://www.facebook.com/footprints4c/" className="text-white text-xl hover:text-gray-300" target="_blank">
                 <FaFacebookF />
               </a>
-              <a href="#" className="text-white text-xl hover:text-gray-300">
+              <a href="https://x.com/footprints4c" className="text-white text-xl hover:text-gray-300" target="_blank">
                 <FaTwitter />
               </a>
-              <a href="#" className="text-white text-xl hover:text-gray-300">
-                <FaLinkedinIn />
+              <a href="https://www.instagram.com/footprints4c/" className="text-white text-xl hover:text-gray-300" target="_blank">
+                <FaInstagram />
               </a>
-              <a href="#" className="text-white text-xl hover:text-gray-300">
+              <a href="https://www.tiktok.com/@footprints4c" className="text-white text-xl hover:text-gray-300" target="_blank">
                 <FaTiktok />
               </a>
             </div>
           </div>
         </div>
 
-        {/* Bottom Section */}
+       {/* Bottom Section */}
         <div className="text-center text-sm mt-10 border-t border-gray-500 pt-4">
           <p>
-            Copyright © 2025 Footprints for Change. All rights reserved. 
+            Copyright © {new Date().getFullYear()} Footprints for Change. All rights reserved. 
             <span className="ml-2">
               Made with <span className="text-red-500">❤️</span> by 
               <a 
@@ -60,6 +60,7 @@ const Footer = () => {
             </span>
           </p>
         </div>
+
       </div>
     </footer>
   );
